@@ -107,7 +107,7 @@ flowchart LR
 2. Install the team into a project.
 
    ```sh
-   python -I ~/.claude/skills/craft-team/scripts/install.py --project /path/to/repo
+   python -I craft-team/scripts/install.py --project /path/to/repo
    ```
 
    The first run writes `.claude/team.json` and stops. Fill it in, then run the installer
