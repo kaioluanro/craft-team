@@ -1,0 +1,6 @@
+<BATCH-ID>: <what the user can now do, in one line>
+
+<Paragraph per behaviour change, in user terms: what it does, defaults, limits, what is
+skipped and why. No plan ids, no rule numbers, no "this batch".>
+
+<Attribution line(s) required by the session, e.g. Co-Authored-By: ...>

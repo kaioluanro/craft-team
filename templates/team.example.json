@@ -1,0 +1,25 @@
+{
+  "project_name": "MyApp",
+  "project_desc": "an open-source, clean-room desktop app",
+  "prefix": "myapp",
+  "reference_product": "the reference product",
+  "rules_file": "CLAUDE.md",
+  "spec_dir": "plan/specs",
+  "briefs_dir": "plan/briefs",
+  "ci_command": "make ci",
+  "ci_success_line": "all checks passed",
+  "usage_test_hint": "launch the app with its automation/control channel, drive it with real clicks and keys, and take screenshots; direct API calls are setup only",
+  "ui_theme_hint": "the theme/tokens file of the UI layer",
+  "ui_languages": "English",
+  "reply_language": "English",
+  "models": {
+    "auditor": "haiku",
+    "implementer": "haiku",
+    "debugger": "sonnet",
+    "reviewer": "sonnet",
+    "legal": "opus",
+    "interface": "opus",
+    "research": "sonnet",
+    "planner": "opus"
+  }
+}
